@@ -1,5 +1,8 @@
-def add(a,b):
+def add(a, b):
     return a + b
 
+def greet(name):
+    return f"Hello, {name}!"
 
-print(add(5,2))
+print(add(5, 3))
+print(greet("Alice"))
